@@ -61,7 +61,7 @@ address {
 }
 
 .container {
-  width: 1128px;
+  width: 1158px;
   padding: 0 15px;
   margin: 0 auto;
   /* outline: 1px solid red; */
@@ -91,16 +91,10 @@ address {
 
 .header-container {
   border-bottom: 1px solid var(--cornflower);
-  padding-top: 24px;
+    padding-top: 24px;
   padding-bottom: 24px;
 
 }
-
-.address-list {
-  margin-left: auto;
-}
-
-
 
 .logo {
   font-family: "Raleway", sans-serif;
@@ -116,9 +110,7 @@ address {
   color: var(--navy-blue);
 }
 
-.nav-item {
 
-}
 .nav-link {
   text-decoration: none;
   color: var(--navy-blue);
