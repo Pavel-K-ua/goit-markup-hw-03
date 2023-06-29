@@ -88,6 +88,9 @@ address {
 .nav {
   align-items: center;
 }
+.adress {
+  margin-left: auto;
+}
 
 .address-list {
   gap: 40px;
@@ -95,7 +98,6 @@ address {
 
 .nav-list {
   gap: 40px;
-  margin-right: 332px;
 }
 
 .header {
@@ -104,7 +106,8 @@ address {
   padding-bottom: 24px;
 }
 
-.logo {
+.logo,
+.logo-header {
   font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-weight: 800;
