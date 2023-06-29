@@ -238,16 +238,38 @@ address {
   text-align: center;
 }
 
+
+
+
+/* PORTFOLIO */
+.projects-section {
+  margin-top: 96px;
+  margin-bottom: 120px;
+}
+
+.filter-list {
+  width: 596px;
+  display: flex;
+  gap: 24px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 72px;
+
+}
+
 .filter-btn {
   font-family: "Roboto", sans-serif;
-
   color: var(--iris);
   text-align: center;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
-    letter-spacing: 0.04em;
+  letter-spacing: 0.04em;
   background: var(--cloud);
+  padding: 12px 24px;
+  border-radius: 4px;
+  border: 1px solid var(--cornflower, #E7E9FC);
+
 }
 
 .filter-btn:hover,
@@ -256,6 +278,19 @@ address {
   background: var(--ocean);
   cursor: pointer;
   color: var(--white);
+}
+
+.projects-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 48px 24px;
+}
+
+.prj-item-text {
+  padding: 32px 0;
+  border: 1px solid var(--cornflower, #E7E9FC);
+  border-top: none;
+  background: var(--white);
 }
 
 .feature-title,
